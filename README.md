@@ -2,14 +2,14 @@
 
 ### To train the network, the following libraries need to be installed:
 
-torch
-numpy
-os
-random
-Image
-torchvision
-matplotlib
-collections
+torch, 
+numpy, 
+os, 
+random, 
+Image, 
+torchvision, 
+matplotlib, 
+collections, 
 
 It is also recommended to have Cuda installed on your system, so that you can train the network more efficiently.
 
