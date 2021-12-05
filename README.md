@@ -13,6 +13,9 @@ collections
 
 It is also recommended to have Cuda installed on your system, so that you can train the network more efficiently.
 
+Please import the the folders images_background and images_evaluation from: https://github.com/brendenlake/omniglot
+Copy those folders in the data folder of this project.
+
 The screenshare and presentation is found at:
 https://drive.google.com/drive/folders/1L4nX5piRm61AGy_QKI7bYmMoYDKnEFAJ?usp=sharing
 
