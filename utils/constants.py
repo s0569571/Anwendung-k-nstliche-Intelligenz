@@ -1,0 +1,12 @@
+CUDA = True                                                                                                             # uses cuda
+GPU = "0"                                                                                                               # gpu ids used to train
+TRAIN_PATH = "./data/images_background"                                                                                 # path of training folder
+TEST_PATH = "./data/images_evaluation"                                                                                  # path of testing folder
+SHOW_AT = 10                                                                                                            # show result after each show_every iter.
+TEST_AT = 100                                                                                                           # test model after each test_every iter.
+MAX_ITERATION = 10000                                                                                                   # number of iterations before stopping
+LOADER_WORKERS = 2                                                                                                      # number of dataLoader workers -> can immensely reduce the performance when to low, or when to high memory usage can be a problem
+BATCH_SIZE = 128                                                                                                        # number of batch size
+WAY = 20                                                                                                                # how much way one-shot learning
+TIMES = 400                                                                                                             # number of samples to test accuracy
+LEARNING_RATE = 0.00006                                                                                                 # learning rate
