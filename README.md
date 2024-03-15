@@ -1,25 +1,17 @@
-# "Anwendung künstlicher Intelligenz"
+# "Siamese Neural Network"
 
-### To train the network, the following libraries need to be installed:
 
-torch, 
-numpy, 
-os, 
-random, 
-Image, 
-torchvision, 
-matplotlib, 
-collections, 
 
-It is also recommended to have Cuda installed on your system, so that you can train the network more efficiently.
+This repository implements a Siamese Neural Network for One-Shot Image Recognition. 
+It consists out of 50 different alphabets and 1000 classes with 20 samples per class. The data is not artifical and was written by a broad spectrum of humans.
 
-Please import the the folders images_background and images_evaluation from: https://github.com/brendenlake/omniglot
+This picture shows a small overview of the different alphabets and letters.
 
-Copy those folders in the data folder of this project.
+![oneshot](https://github.com/NicoSchultze/One-Shot-Network/assets/87664933/77707578-6bc4-4d8c-a995-771ddd342858)
 
-The screenshare and presentation is found at:
-https://drive.google.com/drive/folders/1L4nX5piRm61AGy_QKI7bYmMoYDKnEFAJ?usp=sharing
+Nextly you can see the network structure of the siamese Network. As you can see many convolutional layers are used to achieve the impressive one-shot feat. For more detailled infos see the official paper below.
 
+![structure](https://github.com/NicoSchultze/One-Shot-Network/assets/87664933/0bb4865f-819e-4012-af29-61f01ca07bc8)
 ## Sources
 
 These are the sources I have used to implement the network, dataclasses and to get an overall understanding of the paper.
